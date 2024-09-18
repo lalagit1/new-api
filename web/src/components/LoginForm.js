@@ -170,7 +170,7 @@ const LoginForm = () => {
                   <Form.Input
                     field={'username'}
                     label={'用户名'}
-                    placeholder='用户名'
+                    placeholder='请使用用户名或邮箱登录'
                     name='username'
                     onChange={(value) => handleChange('username', value)}
                   />

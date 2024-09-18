@@ -210,7 +210,7 @@ const SiderBar = () => {
   return (
     <>
       <Nav
-        style={{ maxWidth: 220, height: '100%' }}
+        style={{ maxWidth: 150, height: '100%' }}
         defaultIsCollapsed={
           isMobile() ||
           localStorage.getItem('default_collapse_sidebar') === 'true'
