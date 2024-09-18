@@ -164,8 +164,12 @@ const LoginForm = () => {
             <div style={{ width: 500 }}>
               <Card>
                 <Title heading={2} style={{ textAlign: 'center' }}>
-                  用户登录
+                  用户登录<br />
+                <span style={{ fontSize: '14px', color: '#3366FF' }}>
+                    欢迎使用西电er's GPT
+                </span>
                 </Title>
+
                 <Form>
                   <Form.Input
                     field={'username'}
