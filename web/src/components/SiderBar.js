@@ -86,15 +86,15 @@ const SiderBar = () => {
         icon: <IconLayers />,
         className: isAdmin() ? 'semi-navigation-item-normal' : 'tableHiddle',
       },
-      {
-        text: '聊天',
-        itemKey: 'chat',
-        to: '/chat',
-        icon: <IconComment />,
-        className: localStorage.getItem('chat_link')
-          ? 'semi-navigation-item-normal'
-          : 'tableHiddle',
-      },
+      // {
+      //   text: '聊天',
+      //   itemKey: 'chat',
+      //   to: '/chat',
+      //   icon: <IconComment />,
+      //   className: localStorage.getItem('chat_link')
+      //     ? 'semi-navigation-item-normal'
+      //     : 'tableHiddle',
+      // },
       {
         text: '令牌',
         itemKey: 'token',
@@ -210,7 +210,7 @@ const SiderBar = () => {
   return (
     <>
       <Nav
-        style={{ maxWidth: 150, height: '100%' }}
+        style={{ maxWidth: 130, height: '100%' }}
         defaultIsCollapsed={
           isMobile() ||
           localStorage.getItem('default_collapse_sidebar') === 'true'

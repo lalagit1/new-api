@@ -165,23 +165,20 @@ const LoginForm = () => {
               <Card>
                 <Title heading={2} style={{ textAlign: 'center' }}>
                   用户登录<br />
-                <span style={{ fontSize: '16px', color: '#3366FF' }}>
-                    欢迎使用西电er's GPT
-                </span>
                 </Title>
 
                 <Form>
                   <Form.Input
                     field={'username'}
-                    label={'用户名'}
-                    placeholder='请使用用户名或邮箱登录'
+                    label={'用户名/邮箱'}
+                    placeholder=' '
                     name='username'
                     onChange={(value) => handleChange('username', value)}
                   />
                   <Form.Input
                     field={'password'}
                     label={'密码'}
-                    placeholder='密码'
+                    placeholder=' '
                     name='password'
                     type='password'
                     onChange={(value) => handleChange('password', value)}

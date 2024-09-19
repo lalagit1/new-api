@@ -304,6 +304,7 @@ const TopUp = () => {
                     </Button>
                     <Button
                       style={{
+                        display: 'none',
                         backgroundColor: 'rgba(var(--semi-green-5), 1)',
                       }}
                       type={'primary'}
