@@ -147,16 +147,16 @@ const SiderBar = () => {
             ? 'semi-navigation-item-normal'
             : 'tableHiddle',
       },
-      {
-        text: '异步任务',
-        itemKey: 'task',
-        to: '/task',
-        icon: <IconChecklistStroked />,
-        className:
-            localStorage.getItem('enable_task') === 'true'
-                ? 'semi-navigation-item-normal'
-                : 'tableHiddle',
-      },
+      // {
+      //   text: '异步任务',
+      //   itemKey: 'task',
+      //   to: '/task',
+      //   icon: <IconChecklistStroked />,
+      //   className:
+      //       localStorage.getItem('enable_task') === 'true'
+      //           ? 'semi-navigation-item-normal'
+      //           : 'tableHiddle',
+      // },
       {
         text: '设置',
         itemKey: 'setting',

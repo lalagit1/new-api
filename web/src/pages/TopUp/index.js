@@ -213,9 +213,6 @@ const TopUp = () => {
   return (
     <div>
       <Layout>
-        <Layout.Header>
-          <h3>我的钱包</h3>
-        </Layout.Header>
         <Layout.Content>
           <Modal
             title='确定要充值吗'
